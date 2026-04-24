@@ -12,7 +12,7 @@ Cherry Studio 和 LobeHub / LobeChat 可以看作 Agent 平台的一个细分领
 | **LangGraph / Agno / CrewAI** | 是，偏框架层              | Agent 开发框架 / Runtime / 多 Agent 编排框架 |
 
 
-- Cherry vs Lobe
+- `Cherry` vs `Lobe`
 
 | 共性能力            | Cherry Studio                   | LobeHub / LobeChat                        |
 | --------------- | ------------------------------- | ----------------------------------------- |
@@ -29,3 +29,41 @@ Cherry Studio 和 LobeHub / LobeChat 可以看作 Agent 平台的一个细分领
 | 企业治理            | ◐ Cherry Studio Enterprise 方向相关 | ◐/✅ Workspace、自托管方向相关                     |
 | 终端用户体验          | ✅ 强项                            | ✅ 强项                                      |
 | Agent 市场        | — 不突出                           | ✅ 强项                                      |
+
+
+- `LobeHub`、`Cherry Studio` vs `Dify`
+
+| 对比维度         | Cherry Studio / LobeHub | Dify                             |
+| ------------ | ----------------------- | -------------------------------- |
+| 核心用户         | 终端用户、个人、团队成员            | 应用开发者、产品、企业 AI 平台团队              |
+| 核心场景         | 使用 AI 助手、组织对话、调用工具      | 构建 AI 应用、Agentic Workflow、RAG 应用 |
+| 产品形态         | Client / Workspace      | App Platform / Workflow Platform |
+| 交付对象         | 用户自己使用的助手               | 可发布给他人使用的 AI 应用                  |
+| Workflow 能力  | 较轻                      | 较强                               |
+| RAG Pipeline | 较轻                      | 较强                               |
+| LLMOps       | 较轻                      | 较强                               |
+| 多模型体验        | 强                       | 强                                |
+| MCP 使用体验     | 强                       | 支持，但定位不同                         |
+| 更像什么         | ChatGPT 客户端 + Agent 工作台 | AI 应用低代码开发平台                     |
+
+
+- 三个竞争方向
+
+| 方向                         | 代表产品                                                        | 竞争焦点                          |
+| -------------------------- | ----------------------------------------------------------- | ----------------------------- |
+| **开源自托管 AI Workspace**     | Open WebUI、LibreChat、AnythingLLM                            | 私有化、RAG、多用户、MCP、企业部署          |
+| **桌面 AI Client**           | Cherry Studio、Chatbox、Jan、Msty                              | 多模型、本地模型、MCP、桌面体验、个人效率        |
+| **Agent-native Workspace** | LobeHub、部分 AnythingLLM、未来的 ChatGPT Projects/Claude Projects | Agent 作为工作单元、多 Agent、记忆、任务、协作 |
+
+- Cherry Studio 和 LobeHub 不是孤立产品。它们分别处在两个正在融合的方向上：
+
+Cherry Studio:
+桌面 AI Client → MCP Client → Personal Agent Client
+
+LobeHub:
+AI Chat Workspace → Agent Workspace → Multi-Agent Collaboration Workspace
+
+
+- 发展趋势
+
+AI Chat Client 正在向 Agent Workspace 演进；Agent Workspace 又在向团队协作、长期记忆、工具权限、任务执行和工作流管理演进。
