@@ -35,3 +35,29 @@
 | **适合复杂工程系统集成**              | 接入现有后端、权限、数据库、消息队列、业务流程                      | ✅ 支持                                                       | ✅ 支持：平台化集成能力强                         | ✅ 强项：代码优先 + graph workflow 适合复杂系统                         | ✅ 支持：事件驱动、多 Agent、分布式 runtime 方向                                          | ✅ 支持：适合多 Agent 自动化任务                          | ✅ 强项：runtime/control plane 思路适合工程化集成                       |
 
 
+## 简化版结论
+
+- 共性能力
+
+| 核心能力层       | 对应能力                              |
+| ----------- | --------------------------------- |
+| **Agent 层** | Agent 抽象、多 Agent、角色/任务定义          |
+| **编排层**     | Workflow、Graph、Flow、状态机、条件分支      |
+| **工具层**     | Tool calling、API、MCP、代码执行、外部系统    |
+| **知识层**     | RAG、Knowledge、文档检索、企业知识库          |
+| **记忆层**     | Session、Memory、State、Checkpoint   |
+| **控制层**     | Human-in-the-loop、审批、Guardrails   |
+| **运营层**     | Observability、Tracing、Eval、LLMOps |
+| **平台层**     | 部署、运行时、权限、安全、控制台、低代码 UI           |
+
+
+- 产品定位
+
+| 产品                        | 更像什么                                           |
+| ------------------------- | ---------------------------------------------- |
+| **Dify**                  | 低代码 AI 应用平台 / 企业 Agentic Workflow 平台           |
+| **LangChain / LangGraph** | 代码优先的 Agent 工程框架 + 可控状态图编排                     |
+| **CrewAI**                | 多 Agent 团队协作框架                                 |
+| **Agno**                  | Pythonic 多 Agent 框架 + Runtime + Control Plane  |
+| **AutoGen**               | 多 Agent 编程框架，但新项目需关注 Microsoft Agent Framework |
+| **AutoGPT**               | 自主 Agent 先驱 + 可视化 Agent Workflow 平台            |
